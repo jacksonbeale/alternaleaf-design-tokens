@@ -1,0 +1,69 @@
+{
+  "Alternaleaf": {
+    "fontFamilies": {
+      "IvyMode": {
+        "value": "Ivy Mode",
+        "type": "fontFamilies"
+      },
+      "Nexa": {
+        "value": "Nexa",
+        "type": "fontFamilies"
+      }
+    },
+    "typography": {
+      "h4": {
+        "value": {
+          "fontFamily": "{fontFamilies.IvyMode}"
+        },
+        "type": "typography"
+      },
+      "body1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Nexa}",
+          "fontWeight": "{fontWeights.book}"
+        },
+        "type": "typography"
+      }
+    },
+    "fontWeights": {
+      "book": {
+        "value": "Book",
+        "type": "fontWeights"
+      }
+    },
+    "input": {
+      "filled": {
+        "enabledFill": {
+          "value": "#efefef",
+          "type": "color"
+        },
+        "hoverFill": {
+          "value": "#dbdbdb",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#fff",
+        "type": "color"
+      }
+    },
+    "success": {
+      "main": {
+        "value": "#61CA67",
+        "type": "color"
+      }
+    },
+    "border": {
+      "success": {
+        "main": {
+          "value": {
+            "color": "{success.main}"
+          },
+          "type": "border"
+        }
+      }
+    }
+  }
+}
